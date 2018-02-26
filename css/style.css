@@ -1,0 +1,147 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+section{
+  padding: 100px 0 ;
+  width: 100%
+  height:100%;
+}
+
+h2{
+  text-transform: uppercase;
+  color: #767676;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+hr{
+  color: #767676;
+  width: 10%;
+}
+/*nav*/
+.nav{
+  background-color: #F5F5F5;
+  
+}
+.nav-link, .nav-link:hover{
+  font-size: 16px;
+  color: #767676;
+  text-transform: uppercase;
+}
+p{
+  color: #767676;
+}
+/*homepage*/
+.jumbotron{
+  background-image: url(../images/holland.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  margin-top:40px;
+  height: 350px;
+}
+.homepage-text{
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 20px 30px;
+  letter-spacing: 2px;
+}
+.overlay{
+  background: rgba(0,0,0,0.05);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+/*about me*/
+.col{
+  float:left;
+}
+.col h1{
+  color: #767676;
+  text-transform: uppercase;
+}
+.col  a{
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 15px;
+  color:  #444444;
+}
+.col a:last-child{
+  margin-right: 0px;
+}
+.col p{
+  text-align: justify;
+  padding: 0 20px;
+}
+
+/*service*/
+.card{
+  border: 0;
+  margin-bottom: 20px;
+}
+
+/*resume*/
+
+h3{
+  padding: 0 20px;
+}
+.col-sm-6:first-child{
+  border-right: 1px solid #767676;
+}
+
+/*quotes*/
+
+#quotes{
+  background-image: url(../images/quote.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+.quote-inner{
+  color: #fff;
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.quote-inner h3 {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.quote-inner p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+/*portfolio*/
+.card-img-top{
+  height: 200px;
+}
+/*footer*/
+
+.footer-content{
+  text-align: center;
+}
+.footer-content a{
+  display: inline-block;
+  color: #767676;
+  font-size: 25px;
+  padding: 5px 5px;
+
+}
+.footer-content p{
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+footer{
+  padding: 50px;
+}
